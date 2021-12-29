@@ -15,5 +15,11 @@ Here is the finished playlist on Spotify
 ![example_list](https://user-images.githubusercontent.com/7111119/147627346-55c00d5f-45d1-4e2a-aad4-0de69eb21c33.PNG)
 
 
+Here is the date checking script results from my data
+
+![musicdays](https://user-images.githubusercontent.com/7111119/147707909-3eabb0a1-4464-4f4e-9aca-e3b8ccce1bcb.PNG)
+
+
+
 ## References
 https://towardsdatascience.com/using-python-to-create-spotify-playlists-of-the-samples-on-an-album-e3f20187ee5e
