@@ -22,6 +22,13 @@ This is wrong, I'm two days off because this is in GMT not Central. It's actuall
 ![musicdays](https://user-images.githubusercontent.com/7111119/147707909-3eabb0a1-4464-4f4e-9aca-e3b8ccce1bcb.PNG)
 
 
+I got inspired to write the iCal script to make a more visual version. It takes the sqlite db and parses per day and creates iCal events in a file that I can import into my email. Below is that visualization.
+
+
+![cal](https://user-images.githubusercontent.com/7111119/147715040-d7d56606-7c42-4b9d-a294-aee5454fc511.PNG)
+
+
+
 
 ## References
 https://towardsdatascience.com/using-python-to-create-spotify-playlists-of-the-samples-on-an-album-e3f20187ee5e
