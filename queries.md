@@ -93,3 +93,12 @@ GROUP BY
 ORDER BY 
   Albums.release_date DESC;
 ```
+
+#### Songs from albums by date
+
+```
+SELECT SUM(Plays.ms_played) FROM Plays;
+SELECT SUM(Plays.ms_played) FROM Plays WHERE Plays.ms_played >= 20000;
+
+```
+
