@@ -100,4 +100,22 @@ ORDER BY
 
 `SELECT SUM(Plays.ms_played) FROM Plays WHERE Plays.ms_played >= 20000;`
 
+# Songs over x% complete
+```
+SELECT
+Plays.ts,
+Plays.master_metadata_track_name,
+Plays.master_metadata_album_artist_name,
+Plays.ms_played,
+(Songs.duration_ms - (Songs.duration_ms * .05)) AS '95% completion',
+Songs.duration_ms
 
+FROM
+    Plays
+    INNER JOIN Songs 
+	ON Songs.spotify_track_uid = Plays.spotify_track_uid
+
+WHERE Plays.ms_played >= (Songs.duration_ms - (Songs.duration_ms * .05))
+
+ORDER BY ts;
+```
