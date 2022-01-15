@@ -16,6 +16,9 @@ FROM
 	INNER JOIN Albums 
 	ON Albums.spotify_artist_uid = Songs.spotify_artist_uid
 
+WHERE Plays.ms_played >= 20000
+
+
 GROUP BY 
   Songs.name, Songs.artist_name;
 ```  
