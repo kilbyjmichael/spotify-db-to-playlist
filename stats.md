@@ -1,19 +1,18 @@
 # Stats DEC 17 2018 - DEC 19 2021
 
+### Song Stats
 
++ 6632 unique songs listened to[^uniqueX]
 
-6632 unique songs listened to[^uniqueX]
++ 300 songs listened to on day of release[^reldate]
 
++ 1896 songs listened to in month of release[^reldate]
 
-300 songs listened to on day of release[^reldate]
++ 3880 songs listened to in year of release[^reldate]
 
-1896 songs listened to in month of release[^reldate]
++ 196 albums with tracks listened released before 2000
 
-3880 songs listened to in year of release[^reldate]
-
-196 albums with tracks listened released before 2000
-
-2177 albums with tracks listened released on or after Dec 17 2018
++ 2177 albums with tracks listened released on or after Dec 17 2018
 
 
 
