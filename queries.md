@@ -119,3 +119,15 @@ WHERE Plays.ms_played >= (Songs.duration_ms - (Songs.duration_ms * .05))
 
 ORDER BY ts;
 ```
+
+### Platform Counting
+```
+SELECT count(case when platform like 'android%' then 1 end) as "Android",
+       count(case when platform like '%desktop%' then 1 end) as "Desktop",
+       count(case when platform like 'Partner google cast_voice%' then 1 end) as "Google Home",
+	   count(case when platform not like 'android%' and platform not like '%desktop%' and platform not like 'Partner google cast_voice%' then 1 end) as "Other"
+FROM Plays
+
+WHERE Plays.ms_played >= 20000;
+```
+
