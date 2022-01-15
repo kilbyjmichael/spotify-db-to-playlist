@@ -23,17 +23,17 @@ When providing the full account data Spotify includes _all_ instances of a track
 + `39,563` total song plays (over 20s)[^playcount]
 
 
-### Song Stats
+### Song Stats (out of `5495`)
 
-+ `237 of 5495` (USL) unique songs listened to on day of release[^reldate]
++ `237` (USL) unique songs listened to on day of release[^reldate]
 
-+ `1576 of 5495` USL to in month of release[^reldate]
++ `1576` USL to in month of release[^reldate]
 
-+ `3247 of 5495` USL to in year of release[^reldate]
++ `3247` USL to in year of release[^reldate]
 
-+ `325 of 5495`  USL from albums released before 2000[^byXdate]
++ `325`  USL from albums released before 2000[^byXdate]
 
-+ `4008 of 5495` USL from albums released on or after Dec 17 2018[^byXdate]
++ `4008` USL from albums released on or after Dec 17 2018[^byXdate]
 
 
 
