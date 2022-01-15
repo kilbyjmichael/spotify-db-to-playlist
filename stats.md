@@ -1,6 +1,5 @@
-# Stats Page
+# Stats DEC 17 2018 - DEC 19 2021
 
-Data DEC 17 2018 - DEC 19 2021
 
 
 300 songs listened to on day of release[^reldate]
