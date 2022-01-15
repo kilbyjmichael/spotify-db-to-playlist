@@ -37,12 +37,12 @@ Using these numbers we can do some fun calculations. For example if we take `200
 Spotify records play time down to the millisecond! If we take a look at the sum of all records we could assume that I spent almost _an entire 24 hours_ worth of skipping songs I didn't like or back skipping songs that come after a song I like
 
 + Time played total dropping records below 20 seconds
-  + **`6747764578 ms`** or **`78.0991 days`**
+  + **`6,747,764,578 ms`** or **`78.0991 days`**
 + Time played total including all records (skips, restarting plays, etc)
-  + **`6831566757 ms`** or **`79.0690 days`**
+  + **`6,831,566,757 ms`** or **`79.0690 days`**
 
-+ **`22530`** listens played 95% through or more[^msx%]
-+ 
++ **`22,530`** listens played 95% through or more[^msx%]
++ **`9235`** listens played longer than 20s but less than 50%[^msx%]
 
 
 ### Song Stats (out of `5495`)
