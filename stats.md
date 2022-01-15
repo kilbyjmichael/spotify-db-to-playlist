@@ -14,32 +14,32 @@ When providing the full account data Spotify includes _all_ instances of a track
 
 ### Big Numbers
 
-+ `2008` unique artists played[^uniqueX]
++ **`2008`** unique artists played[^uniqueX]
 
-+ `4184` unique albums with at least one track played[^uniqueX]
++ **`4184`** unique albums with at least one track played[^uniqueX]
 
-+ `5495` unique songs heard[^uniqueX]
++ **`5495`** unique songs heard[^uniqueX]
 
-+ `39,563` total song plays (over 20s)[^playcount]
++ **`39,563`** total song plays (over 20s)[^playcount]
 
 ### Totals Calculations
 
 Using these numbers we can do some fun calculations. For example if we take `2008 artists / 1098 days` we get an average of `1.8` different artists heard per day for the last 3 years. Obviously this is not a real reflection of how I listen to music, but it presents the data in a way that allows a different way to understand the big numbers.
 
-+ `1.8` average unique artists listened per day
++ **`1.8`** average unique artists listened per day
 
 
 ### Song Stats (out of `5495`)
 
-+ `237` (USL) unique songs listened to on day of release[^reldate]
++ **`237`** (USL) unique songs listened to on day of release[^reldate]
 
-+ `1576` USL to in month of release[^reldate]
++ **`1576`** USL to in month of release[^reldate]
 
-+ `3247` USL to in year of release[^reldate]
++ **`3247`** USL to in year of release[^reldate]
 
-+ `325`  USL from albums released before 2000[^byXdate]
++ **`325`**  USL from albums released before 2000[^byXdate]
 
-+ `4008` USL from albums released on or after Dec 17 2018[^byXdate]
++ **`4008`** USL from albums released on or after Dec 17 2018[^byXdate]
 
 
 
