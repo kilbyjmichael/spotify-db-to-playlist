@@ -1,4 +1,4 @@
-# Stats DEC 17 2018 - DEC 19 2021
+# Spotify Stats DEC 17 2018 - DEC 19 2021
 
 I've used spotify for 6 years but only had my own account since December 2018. The data in this project goes back to the join date of my current account which is used soley by me (albiet with car passengers sometimes choosing songs, but that counts because I hear them too). The data set spans 1098 days or almost exactly 3 years.
 
@@ -29,6 +29,13 @@ Using these numbers we can do some fun calculations. For example if we take `200
 + **`1.8`** average unique artists listened per day
 + **`5.0`** average unique songs listened per day
 + **`36.0`** average songs played per day
+
+#### Time Totals
+Spotify gives play time down to the millisecond! If you take a look at the sum of all my listening you can see I spent an _entire day_ worth of skipping songs.
++ Time played total dropping records below 20 seconds
+  + **`6747764578 ms`** or **`78.0991 days`**
++ Time played total including all records (skips, restarting plays, etc)
+  + **`6831566757 ms`** or **`79.0690 days`**
 
 
 ### Song Stats (out of `5495`)
