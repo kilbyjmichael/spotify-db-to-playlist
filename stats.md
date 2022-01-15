@@ -34,7 +34,7 @@ Using these numbers we can do some fun calculations. For example if we take `200
 
 #### Time Totals[^msquery]
 
-Spotify gives play time down to the millisecond! If you take a look at the sum of all my listening you can see I spent an _entire day_ worth of skipping songs.
+Spotify records play time down to the millisecond! If we take a look at the sum of all records we could assume that I spent almost an _entire day_ worth of skipping songs I didn't like
 + Time played total dropping records below 20 seconds
   + **`6747764578 ms`** or **`78.0991 days`**
 + Time played total including all records (skips, restarting plays, etc)
