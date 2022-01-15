@@ -8,7 +8,7 @@ My Sig Figs are probably horrible as this is based off of the Spotify UID and so
 
 I have tried my best to remove these duplicates when doing queries but it's possible I have missed some so treat the small numbers as ± 3 and the big numbers as ± 10 or so.
 
-When providing the full account data Spotify includes _all_ instances of a track play (they sent me `56,416` records, thanks Spotify!). Therefore the Plays table includes many instances of tracks played for less than 1s due to skips or other reasons. I have chosen to filter out anything played less than 20 seconds to give a more acurate representation of actual listen counts.
+When providing the full account data Spotify includes _all_ instances of a track play (they sent me `56,416` records, thanks Spotify!). Therefore the Plays table includes many instances of tracks played for less than 1s due to skips or other reasons. I have chosen to filter out anything played less than 20 seconds to give a more acurate representation of actual listen counts. Some records also have ms_played higher than the duration of the song which throws off some of these calcs as well.
 
 If you see anything that doesn't add up please let me know so I can fix it.
 
@@ -22,7 +22,7 @@ If you see anything that doesn't add up please let me know so I can fix it.
 
 + **`5495`** unique songs heard[^uniqueX]
 
-+ **`39,563`** total song plays (over 20s)[^playcount]
++ **`39,563`** total listens (over 20s)[^playcount]
 
 ### Totals Calculations
 
@@ -34,11 +34,15 @@ Using these numbers we can do some fun calculations. For example if we take `200
 
 #### Time Totals[^msquery]
 
-Spotify records play time down to the millisecond! If we take a look at the sum of all records we could assume that I spent almost _an entire 24 hours_ worth of skipping songs I didn't like
+Spotify records play time down to the millisecond! If we take a look at the sum of all records we could assume that I spent almost _an entire 24 hours_ worth of skipping songs I didn't like or back skipping songs that come after a song I like
+
 + Time played total dropping records below 20 seconds
   + **`6747764578 ms`** or **`78.0991 days`**
 + Time played total including all records (skips, restarting plays, etc)
   + **`6831566757 ms`** or **`79.0690 days`**
+
++ **`22530`** listens played 95% through or more[^msx%]
++ 
 
 
 ### Song Stats (out of `5495`)
@@ -71,3 +75,6 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 [^uniqueX]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#unique-x-count
 [^byXdate]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date
 [^msquery]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date-1
+[^msx%]: https://github.com/kilbyjmichael/spotify-stats/blob/main/queries.md#songs-over-x-complete
+
+
