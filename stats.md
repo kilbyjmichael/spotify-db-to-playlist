@@ -63,13 +63,19 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 + **`4008`** USL from albums released on or after Dec 17 2018[^byXdate]
 
 
-### Platform Info[^platform]
+## Tables
+
+#### Platform[^platform]
 
 | Android  | Desktop | Google Home | Other |
 | :---:  | :---:  | :---:  | :---:  |
 | `32,211` | `2886`  |  `2485` | `1981` |
 
+#### Year[^yearcount]
 
+| 2018 (Dec)  | 2019 | 2020 | 2021 |
+| :---:  | :---:  | :---:  | :---:  |
+| `886` | `14025`  |  `11630` | `13022` |
 
 
 
@@ -87,4 +93,4 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 [^msquery]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date-1
 [^msx%]: https://github.com/kilbyjmichael/spotify-stats/blob/main/queries.md#songs-over-x-complete
 [^platform]: https://github.com/kilbyjmichael/spotify-stats/blob/main/queries.md#platform-counting
-
+[^yearcount]: https://github.com/kilbyjmichael/spotify-stats/blob/main/queries.md#timestamp-counting
