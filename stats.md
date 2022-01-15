@@ -25,15 +25,15 @@ When providing the full account data Spotify includes _all_ instances of a track
 
 ### Song Stats
 
-+ 237  / 5495 unique songs listened to on day of release[^reldate]
++ 237  / 5495 unique songs listened (USL) to on day of release[^reldate]
 
-+ 1576 / 5495 unique songs listened to in month of release[^reldate]
++ 1576 / 5495 USL to in month of release[^reldate]
 
-+ 3247 / 5495 unique songs listened to in year of release[^reldate]
++ 3247 / 5495 USL to in year of release[^reldate]
 
-+ 325 / 5495  unique songs listened from albums released before 2000[^byXdate]
++ 325 / 5495  USL from albums released before 2000[^byXdate]
 
-+ 4008 / 5495 unique songs listened to from albums released on or after Dec 17 2018[^byXdate]
++ 4008 / 5495 USL to from albums released on or after Dec 17 2018[^byXdate]
 
 
 
