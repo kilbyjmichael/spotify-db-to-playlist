@@ -2,7 +2,7 @@
 
 I've used spotify for 6 years but only had my own account since December 2018. The data in this project goes back to the join date of my current account which is used soley by me (albiet with car passengers sometimes choosing songs, but that counts because I hear them too).
 
-##### Data Confidence 
+### Data Confidence 
 
 My Sig Figs are probably horrible as this is based off of the Spotify UID and sometimes there can be songs with more than one track id. Some of these are seperate releases such as singles, but others are exactly the same to my eyes and I can't figure out why they have dupe ids. 
 
@@ -19,6 +19,8 @@ When providing the full account data Spotify includes _all_ instances of a track
 + 4184 unique albums with at least one track played[^uniqueX]
 
 + 5495 unique songs heard[^uniqueX]
+
++ 39563 total song plays (over 20s)[^playcount]
 
 
 ### Song Stats
@@ -46,7 +48,8 @@ When providing the full account data Spotify includes _all_ instances of a track
 
 
 
-
+[^playcount]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#total-play-count
 [^reldate]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-listened-compared-to-release-date
 [^uniqueX]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#unique-x-count
 [^byXdate]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date
+
