@@ -6,6 +6,8 @@
 
 1896 songs listened to in month of release[^reldate]
 
+3880 songs listened to in year of release[^reldate]
+
 196 albums with tracks listened released before 2000
 
 2177 albums with tracks listened released on or after Dec 17 2018
