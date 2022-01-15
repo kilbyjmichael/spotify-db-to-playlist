@@ -32,7 +32,7 @@ Using these numbers we can do some fun calculations. For example if we take `200
 + **`5.0`** average unique songs listened per day
 + **`36.0`** average songs played per day
 
-#### Time Totals[^msquery]
+### Time Totals[^msquery]
 
 Spotify records play time down to the millisecond! If we take a look at the sum of all records we could assume that I spent almost _an entire 24 hours_ worth of skipping songs I didn't like or back skipping songs that come after a song I like
 
@@ -41,6 +41,7 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 + Time played total including all records (skips, restarting plays, etc)
   + **`6,831,566,757 ms`** or **`79.0690 days`**
 
+##### Other Time Totals
 + **`22,530`** listens played 95% through or more[^msx%]
 + **`9235`** listens played longer than 20s but less than 50%[^msx%]
 
