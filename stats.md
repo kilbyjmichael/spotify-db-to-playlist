@@ -30,7 +30,8 @@ Using these numbers we can do some fun calculations. For example if we take `200
 + **`5.0`** average unique songs listened per day
 + **`36.0`** average songs played per day
 
-#### Time Totals
+#### Time Totals[^msquery]
+
 Spotify gives play time down to the millisecond! If you take a look at the sum of all my listening you can see I spent an _entire day_ worth of skipping songs.
 + Time played total dropping records below 20 seconds
   + **`6747764578 ms`** or **`78.0991 days`**
@@ -67,4 +68,4 @@ Spotify gives play time down to the millisecond! If you take a look at the sum o
 [^reldate]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-listened-compared-to-release-date
 [^uniqueX]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#unique-x-count
 [^byXdate]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date
-
+[^msquery]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date-1
