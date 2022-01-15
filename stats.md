@@ -8,15 +8,17 @@ My Sig Figs are probably horrible as this is based off of the Spotify UID and so
 
 I have tried my best to remove these duplicates when doing queries but it's possible I have missed some so treat the small numbers as ± 3 and the big numbers as ± 10 or so.
 
-In the Plays table there are many instances of songs played for less than 1s due to skips or slow loading etc. I have chosen to filter out anything played less than 20 seconds to give a more acurate representation of actual listen counts.
+When providing the full account data Spotify includes _all_ instances of a track play. Therefore the Plays table includes many instances of tracks played for less than 1s due to skips or other reasons. I have chosen to filter out anything played less than 20 seconds to give a more acurate representation of actual listen counts.
 
 ------
 
 ### Big Numbers
 
-+ 4184 unique albums listened to[^uniqueX]
++ 2008 unique artists played[^uniqueX]
 
-+ 5495 unique songs listened to[^uniqueX]
++ 4184 unique albums with at least one track played[^uniqueX]
+
++ 5495 unique songs heard[^uniqueX]
 
 
 ### Song Stats
