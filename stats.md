@@ -25,7 +25,7 @@ When providing the full account data Spotify includes _all_ instances of a track
 
 ### Song Stats
 
-+ 237  / 5495 unique songs listened (USL) to on day of release[^reldate]
++ 237  / 5495 (USL) unique songs listened to on day of release[^reldate]
 
 + 1576 / 5495 USL to in month of release[^reldate]
 
