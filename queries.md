@@ -59,7 +59,7 @@ FROM
 	INNER JOIN Albums 
 	ON Albums.spotify_artist_uid = Songs.spotify_artist_uid
 	
-WHERE substr(Plays.ts,0,8)  LIKE substr(Albums.release_date,0,8)
+WHERE substr(Plays.ts,0,8) LIKE substr(Albums.release_date,0,8) AND Plays.ms_played >= 20000
 
 GROUP BY 
   Songs.name, Songs.artist_name;
@@ -84,7 +84,7 @@ FROM
 	INNER JOIN Albums 
 	ON Albums.spotify_artist_uid = Songs.spotify_artist_uid
 	
-WHERE substr(Albums.release_date,0,11)  > '2018-12-16%' 
+WHERE substr(Albums.release_date,0,11)  > '2018-12-16%' AND Plays.ms_played >= 20000
 
 GROUP BY 
   Songs.name, Songs.artist_name
