@@ -1,8 +1,11 @@
 # Stats DEC 17 2018 - DEC 19 2021
 
-### Song Stats
+### Big Numbers
 
 + 6632 unique songs listened to[^uniqueX]
+
+
+### Song Stats
 
 + 300  / 6632 songs listened to on day of release[^reldate]
 
