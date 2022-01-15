@@ -66,7 +66,7 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 ### Platform Info[^platform]
 
 | Android  | Desktop | Google Home | Other |
-| --------- | --------- | --------- | ----- |
+| :---:  | :---:  | :---:  | :---:  |
 | `32,211` | `2886`  |  `2485` | `1981` |
 
 
