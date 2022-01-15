@@ -131,3 +131,16 @@ FROM Plays
 WHERE Plays.ms_played >= 20000;
 ```
 
+### Timestamp Counting
+```
+SELECT count(case when ts like '2018%' then 1 end) as "2018",
+       count(case when ts like '2019%' then 1 end) as "2019",
+       count(case when ts like '2020%' then 1 end) as "2020",
+	   count(case when ts like '2021%' then 1 end) as "2021",
+	   count(case when ts not like '2021%' and ts not like '2020%' and ts not like '2019%' and ts not like '2018%' then 1 end) as "Err Check"
+
+FROM Plays
+  
+WHERE Plays.ms_played >= 20000;
+```
+
