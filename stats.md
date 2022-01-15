@@ -8,7 +8,7 @@ My Sig Figs are probably horrible as this is based off of the Spotify UID and so
 
 I have tried my best to remove these duplicates when doing queries but it's possible I have missed some so treat the small numbers as ± 3 and the big numbers as ± 10 or so.
 
-When providing the full account data Spotify includes _all_ instances of a track play. Therefore the Plays table includes many instances of tracks played for less than 1s due to skips or other reasons. I have chosen to filter out anything played less than 20 seconds to give a more acurate representation of actual listen counts.
+When providing the full account data Spotify includes _all_ instances of a track play (they sent me `56,416` records, thanks Spotify!). Therefore the Plays table includes many instances of tracks played for less than 1s due to skips or other reasons. I have chosen to filter out anything played less than 20 seconds to give a more acurate representation of actual listen counts.
 
 ------
 
@@ -27,6 +27,8 @@ When providing the full account data Spotify includes _all_ instances of a track
 Using these numbers we can do some fun calculations. For example if we take `2008 artists / 1098 days` we get an average of `1.8` different artists heard per day for the last 3 years. Obviously this is not a real reflection of how I listen to music, but it presents the data in a way that allows a different way to understand the big numbers.
 
 + **`1.8`** average unique artists listened per day
++ **`5.0`** average unique songs listened per day
++ **`36.0`** average songs played per day
 
 
 ### Song Stats (out of `5495`)
