@@ -22,8 +22,5 @@ FROM
 WHERE substr(Plays.ts,0,8)  LIKE substr(Albums.release_date,0,8)
 
 GROUP BY 
-  Songs.name, Songs.artist_name
-
-ORDER BY 
-  Songs.popularity DESC;
+  Songs.name, Songs.artist_name;
 ```
