@@ -14,9 +14,9 @@ In the Plays table there are many instances of songs played for less than 1s due
 
 ### Big Numbers
 
-+ 4530 unique albums listened to[^uniqueX]
++ 4184 unique albums listened to[^uniqueX]
 
-+ 6632 unique songs listened to[^uniqueX]
++ 5495 unique songs listened to[^uniqueX]
 
 
 ### Song Stats
