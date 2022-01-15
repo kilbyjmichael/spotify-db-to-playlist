@@ -1,4 +1,5 @@
-# Spotify Stats DEC 17 2018 - DEC 19 2021
+# Spotify Stats
+### DEC 17 2018 - DEC 19 2021
 
 I've used spotify for 6 years but only had my own account since December 2018. The data in this project goes back to the join date of my current account which is used soley by me (albiet with car passengers sometimes choosing songs, but that counts because I hear them too). The data set spans 1098 days or almost exactly 3 years.
 
