@@ -26,7 +26,7 @@ If you see anything that doesn't add up please let me know so I can fix it.
 
 ### Totals Calculations
 
-Using these numbers we can do some fun calculations. For example if we take `2008 artists / 1098 days` we get an average of `1.8` different artists heard per day for the last 3 years. Obviously this is not a real reflection of how I listen to music, but it presents the data in a way that allows a different way to understand the big numbers.
+Using these numbers we can do some fun calculations. For example if we take `2008 artists / 1098 days` we get an average of `1.8` different artists heard per day for the last 3 years. Obviously this is not a real reflection of how I listen to music, but it presents the data in a way that allows a alternative way to understand the big numbers.
 
 + **`1.8`** average unique artists listened per day
 + **`5.0`** average unique songs listened per day
