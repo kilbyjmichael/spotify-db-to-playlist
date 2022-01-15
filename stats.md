@@ -18,11 +18,8 @@ If you see anything that doesn't add up please let me know so I can fix it.
 ### Big Numbers
 
 + **`2008`** unique artists played[^uniqueX]
-
 + **`4184`** unique albums with at least one track played[^uniqueX]
-
 + **`5495`** unique songs heard[^uniqueX]
-
 + **`39,563`** total listens (over 20s)[^playcount]
 
 ### Totals Calculations
@@ -53,13 +50,9 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 ### Song Stats (out of `5495`)
 
 + **`237`** (USL) unique songs listened to on day of release[^reldate]
-
 + **`1576`** USL to in month of release[^reldate]
-
 + **`3247`** USL to in year of release[^reldate]
-
 + **`325`**  USL from albums released before 2000[^byXdate]
-
 + **`4008`** USL from albums released on or after Dec 17 2018[^byXdate]
 
 
@@ -71,8 +64,7 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 | :---:  | :---:  | :---:  | :---:  |
 | `32,211` | `2886`  |  `2485` | `1981` |
 
-#### Year[^yearcount]
-
+#### Year (UTC)[^yearcount]
 | 2018 (Dec)  | 2019 | 2020 | 2021 |
 | :---:  | :---:  | :---:  | :---:  |
 | `886` | `14025`  |  `11630` | `13022` |
