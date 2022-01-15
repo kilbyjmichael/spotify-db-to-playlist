@@ -1,5 +1,23 @@
 # Sqlite Queries Reference
 
+#### Total Play Count
+
+```
+SELECT
+Plays.master_metadata_track_name,
+Plays.master_metadata_album_artist_name,
+Plays.master_metadata_album_album_name
+
+FROM
+    Plays
+
+
+WHERE Plays.ms_played >= 20000
+
+ORDER BY master_metadata_track_name;
+```
+
+
 
 #### Unique X Count
 
