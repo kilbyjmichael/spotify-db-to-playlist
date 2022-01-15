@@ -41,9 +41,12 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 + Time played total including all records (skips, restarting plays, etc)
   + **`6,831,566,757 ms`** or **`79.0690 days`**
 
-##### Other Time Totals
-+ **`22,530`** listens played 95% through or more[^msx%]
-+ **`9235`** listens played longer than 20s but less than 50%[^msx%]
+##### Other Time Totals (out of `39563`) [^msx%]
++ **`15,237`** listens played 100% through
++ **`22,530`** listens played 95% through or more
++ **`23,581`** listens played 90% through or more
++ **`25,496`** listens played 80% through or more
++ **`9235`** listens played longer than 20s but less than 50%
 
 
 ### Song Stats (out of `5495`)
