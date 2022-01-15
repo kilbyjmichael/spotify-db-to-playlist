@@ -10,6 +10,8 @@ I have tried my best to remove these duplicates when doing queries but it's poss
 
 When providing the full account data Spotify includes _all_ instances of a track play (they sent me `56,416` records, thanks Spotify!). Therefore the Plays table includes many instances of tracks played for less than 1s due to skips or other reasons. I have chosen to filter out anything played less than 20 seconds to give a more acurate representation of actual listen counts.
 
+If you see anything that doesn't add up please let me know.
+
 ------
 
 ### Big Numbers
