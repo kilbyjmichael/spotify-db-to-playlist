@@ -1,6 +1,6 @@
 # Sqlite Queries Reference
 
-#### Total Play Count
+### Total Play Count
 
 ```
 SELECT
@@ -19,7 +19,7 @@ ORDER BY master_metadata_track_name;
 
 
 
-#### Unique X Count
+### Unique X Count
 
 ```
 SELECT
@@ -42,7 +42,7 @@ GROUP BY
 ```  
  
 
-#### Songs listened compared to release date
+### Songs listened compared to release date
 
 ```
 SELECT
@@ -67,7 +67,7 @@ GROUP BY
 
 
 
-#### Songs from albums by date
+### Songs from albums by date
 
 ```
 SELECT
@@ -94,13 +94,13 @@ ORDER BY
   Albums.release_date DESC;
 ```
 
-#### Songs from albums by date
+### Songs from albums by date
 
 `SELECT SUM(Plays.ms_played) FROM Plays;`
 
 `SELECT SUM(Plays.ms_played) FROM Plays WHERE Plays.ms_played >= 20000;`
 
-#### Songs over x% complete
+### Songs over x% complete
 ```
 SELECT
 Plays.ts,
