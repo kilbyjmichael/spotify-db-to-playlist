@@ -2,6 +2,9 @@
 
 
 
+6632 unique songs listened to[^uniqueX]
+
+
 300 songs listened to on day of release[^reldate]
 
 1896 songs listened to in month of release[^reldate]
@@ -27,4 +30,4 @@
 
 
 [^reldate]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-listened-compared-to-release-date
-
+[^uniqueX]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#unique-x-count
