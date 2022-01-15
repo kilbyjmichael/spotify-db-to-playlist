@@ -96,9 +96,8 @@ ORDER BY
 
 #### Songs from albums by date
 
-```
-SELECT SUM(Plays.ms_played) FROM Plays;
-SELECT SUM(Plays.ms_played) FROM Plays WHERE Plays.ms_played >= 20000;
+`SELECT SUM(Plays.ms_played) FROM Plays;`
 
-```
+`SELECT SUM(Plays.ms_played) FROM Plays WHERE Plays.ms_played >= 20000;`
+
 
