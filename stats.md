@@ -42,7 +42,7 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 + Time played total including all records (skips, restarting plays, etc)
   + **`6,831,566,757 ms`** or **`79.0690 days`**
 
-##### Other Time Totals (out of `39563`) [^msx%]
+##### Other Time Totals (out of `39,563`) [^msx%]
 + **`15,237`** listens played 100% through
 + **`22,530`** listens played 95% through or more
 + **`23,581`** listens played 90% through or more
@@ -63,6 +63,11 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 + **`4008`** USL from albums released on or after Dec 17 2018[^byXdate]
 
 
+### Platform Info[^platform]
+
+| Android  | Desktop | Google Home | Other |
+| --------- | --------- | --------- | ----- |
+| `32,211` | `2886`  |  `2485` | `1981` |
 
 
 
@@ -81,5 +86,5 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 [^byXdate]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date
 [^msquery]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#songs-from-albums-by-date-1
 [^msx%]: https://github.com/kilbyjmichael/spotify-stats/blob/main/queries.md#songs-over-x-complete
-
+[^platform]: https://github.com/kilbyjmichael/spotify-stats/blob/main/queries.md#platform-counting
 
