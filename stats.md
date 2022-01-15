@@ -33,7 +33,7 @@ When providing the full account data Spotify includes _all_ instances of a track
 
 + 325 / 5495  USL from albums released before 2000[^byXdate]
 
-+ 4008 / 5495 USL to from albums released on or after Dec 17 2018[^byXdate]
++ 4008 / 5495 USL from albums released on or after Dec 17 2018[^byXdate]
 
 
 
