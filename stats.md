@@ -72,9 +72,9 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 
 
 
+## Graphs
 
-
-
+![fig1](https://user-images.githubusercontent.com/7111119/149645085-b92c6475-834d-4b7c-8b55-ebb416f8e669.png)
 
 
 
