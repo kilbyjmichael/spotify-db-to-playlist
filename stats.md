@@ -90,6 +90,7 @@ And from this list you can see that the longest stretch of using spotify was fro
 
 ![fig1](https://user-images.githubusercontent.com/7111119/149645085-b92c6475-834d-4b7c-8b55-ebb416f8e669.png)
 
+![triag1](https://user-images.githubusercontent.com/7111119/149650217-f9ef19f9-97f9-4727-a445-a2aa35ce866c.png)
 
 
 [^playcount]: https://github.com/kilbyjmichael/spotify-db-to-playlist/blob/main/queries.md#total-play-count
