@@ -65,6 +65,7 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 ```
 2019-1-1, 2020-03-25, 2020-05-5, 2020-06-19, 2020-06-21, 2020-07-04, 2020-07-05, 2020-11-07, 2020-12-16, 2020-12-27, 2021-01-17, 2021-01-26, 2021-02-02, 2021-02-16, 2021-02-17, 2021-11-28
 ```
+And from this you can see that the longest stretch of using spotify was from January 2nd 2019 and March 24th 2020 or `447 days` of listening to music every day.
 
 ## Tables
 
