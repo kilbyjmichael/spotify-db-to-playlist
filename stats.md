@@ -1,7 +1,7 @@
 # Spotify Stats
 ### DEC 17 2018 - DEC 19 2021
 
-I've used spotify for 6 years but only had my own account since December 2018. The data in this project goes back to the join date of my current account which is used soley by me (albiet with car passengers sometimes choosing songs, but that counts because I hear them too). The data set spans 1098 days or almost exactly 3 years.
+I've used spotify for 6 years but only had my own account since December 2018. The data in this project goes back to the join date of my current account which is used soley by me (albiet with car passengers sometimes choosing songs, but that counts because I hear them too). The data set spans 1099 days or almost exactly 3 years.
 
 ### Data Confidence 
 
@@ -24,11 +24,11 @@ If you see anything that doesn't add up please let me know so I can fix it.
 
 ### Totals Calculations
 
-Using these numbers we can do some fun calculations. For example if we take `2008 artists / 1098 days` we get an average of `1.8` different artists heard per day for the last 3 years. Obviously this is not a real reflection of how I listen to music, but it presents the data in a way that allows a alternative way to understand the big numbers.
+Using these numbers we can do some fun calculations. For example if we take `2008 artists / 1099 days` we get an average of `1.8` different artists heard per day for the last 3 years. Obviously this is not a real reflection of how I listen to music, but it presents the data in a way that allows a alternative way to understand the big numbers.
 
 + **`1.8`** average unique artists listened per day
 + **`5.0`** average unique songs listened per day
-+ **`36.0`** average songs played per day
++ **`35.999`** average songs played per day
 
 ### Time Totals[^msquery]
 
@@ -36,6 +36,7 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 
 + Time played total dropping records below 20 seconds
   + **`6,747,764,578 ms`** or **`78.0991 days`**
+  + `1874.379 hr / 1099 days` is 1.7 hours a day
 + Time played total including all records (skips, restarting plays, etc)
   + **`6,831,566,757 ms`** or **`79.0690 days`**
 
