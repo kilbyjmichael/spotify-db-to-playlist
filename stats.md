@@ -30,6 +30,16 @@ Using these numbers we can do some fun calculations. For example if we take `200
 + **`5.0`** average unique songs listened per day
 + **`35.999`** average songs played per day
 
+
+### Song Stats (out of `5495`)
+
++ **`237`** (USL) unique songs listened to on day of release[^reldate]
++ **`1576`** USL to in month of release[^reldate]
++ **`3247`** USL to in year of release[^reldate]
++ **`325`**  USL from albums released before 2000[^byXdate]
++ **`4008`** USL from albums released on or after Dec 17 2018[^byXdate]
+
+
 ### Time Totals[^msquery]
 
 Spotify records play time down to the millisecond! If we take a look at the sum of all records we could assume that I spent almost _an entire 24 hours_ worth of skipping songs I didn't like or back skipping songs that come after a song I like
@@ -47,17 +57,21 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 + **`25,496`** listens played 80% through or more
 + **`9235`** listens played longer than 20s but less than 50%
 
+##### Some More Time (CST)
++ **`16 days`** with no plays (over 20s)
 
-### Song Stats (out of `5495`)
++ List of dates with no plays:
 
-+ **`237`** (USL) unique songs listened to on day of release[^reldate]
-+ **`1576`** USL to in month of release[^reldate]
-+ **`3247`** USL to in year of release[^reldate]
-+ **`325`**  USL from albums released before 2000[^byXdate]
-+ **`4008`** USL from albums released on or after Dec 17 2018[^byXdate]
-
+```
+2019-1-1, 2020-03-25, 2020-05-5, 2020-06-19, 2020-06-21, 2020-07-04, 2020-07-05, 2020-11-07, 2020-12-16, 2020-12-27, 2021-01-17, 2021-01-26, 2021-02-02, 2021-02-16, 2021-02-17, 2021-11-28
+```
 
 ## Tables
+
+#### No Play Days by Year
+| 2018 (Dec)  | 2019 | 2020 | 2021 |
+| :---:  | :---:  | :---:  | :---:  |
+| 0 | 1  |  8 | 6 |
 
 #### Platform[^platform]
 
@@ -65,7 +79,7 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 | :---:  | :---:  | :---:  | :---:  |
 | `32,211` | `2886`  |  `2485` | `1981` |
 
-#### Year (CST)[^yearcount]
+#### Plays per Year (CST)[^yearcount]
 | 2018 (Dec)  | 2019 | 2020 | 2021 |
 | :---:  | :---:  | :---:  | :---:  |
 | `893` | `14018`  |  `11636` | `13016` |
