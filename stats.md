@@ -65,10 +65,10 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 | :---:  | :---:  | :---:  | :---:  |
 | `32,211` | `2886`  |  `2485` | `1981` |
 
-#### Year (UTC)[^yearcount]
+#### Year (CST)[^yearcount]
 | 2018 (Dec)  | 2019 | 2020 | 2021 |
 | :---:  | :---:  | :---:  | :---:  |
-| `886` | `14025`  |  `11630` | `13022` |
+| `893` | `14018`  |  `11636` | `13016` |
 
 
 
