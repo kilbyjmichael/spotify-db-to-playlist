@@ -73,18 +73,16 @@ Spotify records play time down to the millisecond! If we take a look at the sum 
 | :---:  | :---:  | :---:  | :---:  |
 | 0 | 1  |  8 | 6 |
 
-#### Platform[^platform]
-
-| Android  | Desktop | Google Home | Other |
-| :---:  | :---:  | :---:  | :---:  |
-| `32,211` | `2886`  |  `2485` | `1981` |
-
 #### Plays per Year (CST)[^yearcount]
 | 2018 (Dec)  | 2019 | 2020 | 2021 |
 | :---:  | :---:  | :---:  | :---:  |
 | `893` | `14018`  |  `11636` | `13016` |
 
+#### Platform[^platform]
 
+| Android  | Desktop | Google Home | Other |
+| :---:  | :---:  | :---:  | :---:  |
+| `32,211` | `2886`  |  `2485` | `1981` |
 
 
 ## Graphs
